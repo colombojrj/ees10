@@ -18,5 +18,6 @@ Fazer controle em tempo real de maneira correta exige muito cuidado. Para evitar
 
 ## Inicializando o código
 
-Depois de tudo instalado, você pode inicializar o código no seu computador. Assista o vídeo a seguir com os passos.
+Depois de tudo instalado, você pode inicializar o código no seu computador. Assista o vídeo a seguir com o passo-a-passo.
 
+[![Watch the video](https://img.freepik.com/vetores-premium/pagina-de-perfil-do-player-de-video-do-youtube-canal-do-blogger-modelo-de-interface-do-usuario-ux-do-site_73903-324.jpg)](https://youtu.be/wiP100gNqGI)
