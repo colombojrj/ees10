@@ -1,7 +1,7 @@
 // Matrix library. you may find documentation in the link below:
 // https://eigen.tuxfamily.org/dox/GettingStarted.html
 // https://eigen.tuxfamily.org/dox/group__QuickRefPage.html
-#include <Eigen/Dense>
+#include <Eigen/Core>
 using namespace Eigen;
 
 // Runge Kutta implementation. You may find documentation in the link below:
@@ -79,10 +79,10 @@ int main()
     state_type x0(2);
     x0[0] = 0;
     x0[1] = 0;
-
+    
     // Finally, integrate using RungeKutta with fixed-step of (Ts / 1000) seconds.
     integrate_const(rk4, edoAeropendulumNonLinear, x0, 0.0, Ts, Ts / 1000);
-
+    
     // Print result on screen, i.e., x(Ts)
     std::cout << x0[0] << ", " << x0[1] << std::endl;
 
