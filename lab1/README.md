@@ -34,7 +34,7 @@ $$ G(s) = \frac{Y(s)}{U(s)} = \frac{3}{s^2 + 2s + 3} $$
 
 que no domínio do tempo pode ser escrita como sendo
 
-$$ \dot{x}(t) = \left[ \begin{array}{cc} -2 & -3 \\ 1 & 0 \end{array} \right] x(t) + \left[ \begin{array}{cc} 1 \\ 0\end{array} \right] u(t) $$
+$$ \dot{x}(t) = \left[ \begin{array}{cc} -2 & -3 \newline 1 & 0 \end{array} \right] x(t) + \left[ \begin{array}{cc} 1 \newline 0\end{array} \right] u(t) $$
 
 $$ y(t) = \left[ \begin{array}{cc} 0 & 3 \end{array} \right] x(t) $$
 
