@@ -21,3 +21,11 @@ Fazer controle em tempo real de maneira correta exige muito cuidado. Para evitar
 Depois de tudo instalado, você pode inicializar o código no seu computador. Assista o vídeo a seguir com o passo-a-passo.
 
 [![Watch the video](https://img.freepik.com/vetores-premium/pagina-de-perfil-do-player-de-video-do-youtube-canal-do-blogger-modelo-de-interface-do-usuario-ux-do-site_73903-324.jpg)](https://youtu.be/wiP100gNqGI)
+
+## Programas que eu uso
+
+- Para editar LaTeX: [Kile](https://kile.sourceforge.io/download.php) + [Miktex](https://miktex.org/download)
+- Para editar as figuras: [Inkscape](https://inkscape.org/pt-br/)
+- Para escrever com a caneta wacom: [Xournal++](https://xournalpp.github.io/)
+- Para gravar os vídeo tutoriais: [OBS Studio](https://obsproject.com/pt-br/download/)
+- Para editar os vídeos: [kdenlive](https://kdenlive.org/en/download/)
