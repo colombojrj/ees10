@@ -19,11 +19,6 @@ volatile bool running;
 MatrixXd u, y;
 unsigned int index;
 
-double getStationaryControl(const double yss)
-{
-	return 37.61 * yss + 0.4558;
-}
-
 Dac* board;
 
 double toDuty(const double number)
