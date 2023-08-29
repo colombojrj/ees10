@@ -44,4 +44,4 @@ Esse problema é devido à versão da HDF5. A solução é:
 3. deletar a pasta ees10 (sem dó nem piedade)
 4. clonar de novo este repositório e repetir o procedimento de configuração (cmake configure, cmake generate, compilar o projeto lab1)
 
-Muito obrigado ao Emanuel por relatar, identificar e resolver esse problema.
+Muito obrigado ao Emanuel (ELE-25) por relatar, identificar e resolver esse problema.
