@@ -1,5 +1,15 @@
 # Lab3
 
+## Equipe de laboratório 13h30-15h10
+
+Adicione aqui os parâmetros $\alpha$, $\beta$, $\gamma$ e a equação da curva estática. Adicionalmente, coloque também as funções de transferência para os pontos de operação ($\bar{\theta}=20$º, $\bar{u}=$?), ($\bar{\theta}=40$º, $\bar{u}=$?), ($\bar{\theta}=75$º, $\bar{u}=$?) e ($\bar{\theta}=95$º, $\bar{u}=$?). Sugestão: crie subseções para organizar.
+
+## Equipe de laboratório 15h30-17h10
+
+Adicione aqui os parâmetros $\alpha$, $\beta$, $\gamma$ e a equação da curva estática. Adicionalmente, coloque também as funções de transferência para os pontos de operação ($\bar{\theta}=20$º, $\bar{u}=$?), ($\bar{\theta}=40$º, $\bar{u}=$?), ($\bar{\theta}=75$º, $\bar{u}=$?) e ($\bar{\theta}=95$º, $\bar{u}=$?). Sugestão: crie subseções para organizar.
+
+## Objetivos
+
 O objetivo desse encontro é:
 
 - obter os parâmetros $\alpha$, $\beta$ e $\gamma$ do modelo dinâmico do aeropêndulo a partir de um ensaio a degrau
