@@ -1,10 +1,34 @@
 # Lab3
 
-## Equipe de laboratório 13h30-15h10
+## Equipe de laboratório 13h30-15h10 (Time 1)
 
 Adicione aqui os parâmetros $\alpha$, $\beta$, $\gamma$ e a equação da curva estática. Adicionalmente, coloque também as funções de transferência para os pontos de operação ($\bar{\theta}=20$º, $\bar{u}=$?), ($\bar{\theta}=40$º, $\bar{u}=$?), ($\bar{\theta}=75$º, $\bar{u}=$?) e ($\bar{\theta}=95$º, $\bar{u}=$?). Sugestão: crie subseções para organizar.
 
-## Equipe de laboratório 15h30-17h10
+### Resultados
+
+Abaixo, serão descritos apenas os resultados finais obtidos. O detalhamento desses resultados pode ser acessado [aqui](../resultados/time-1/lab-3/README.md).
+
+#### Parâmetros
+
+| $\alpha$ | $\beta$ | $\gamma$ |
+|:-------:|:-------:|:-------:|
+| 23,24 | 1,96 | 0,56 |
+#### Curva estática
+
+$u_{ss} = 34.81 y_{ss} + 0.883$
+
+#### Funções de transferência para diferentes pontos de operação
+
+##### Ponto de operação ($\bar{\theta}=20$º, $\bar{u}=11.34\%$):
+
+$G(s) = \frac{\Delta \theta(s)}{\Delta U(s)} = \frac{0.64}{s^2 + 2.56 s + 20.40}$
+
+
+##### Ponto de operação ($\bar{\theta}=40$º, $\bar{u}=23.51\%$):
+
+$G(s) = \frac{\Delta \theta(s)}{\Delta U(s)} = \frac{0.47}{s^2 + 1.36 s + 18.97}$
+
+## Equipe de laboratório 15h30-17h10 (Time 2)
 
 Adicione aqui os parâmetros $\alpha$, $\beta$, $\gamma$ e a equação da curva estática. Adicionalmente, coloque também as funções de transferência para os pontos de operação ($\bar{\theta}=20$º, $\bar{u}=$?), ($\bar{\theta}=40$º, $\bar{u}=$?), ($\bar{\theta}=75$º, $\bar{u}=$?) e ($\bar{\theta}=95$º, $\bar{u}=$?). Sugestão: crie subseções para organizar.
 
