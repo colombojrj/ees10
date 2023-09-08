@@ -32,6 +32,30 @@ $G(s) = \frac{\Delta \theta(s)}{\Delta U(s)} = \frac{0.47}{s^2 + 1.36 s + 18.97}
 
 Adicione aqui os parâmetros $\alpha$, $\beta$, $\gamma$ e a equação da curva estática. Adicionalmente, coloque também as funções de transferência para os pontos de operação ($\bar{\theta}=20$º, $\bar{u}=$?), ($\bar{\theta}=40$º, $\bar{u}=$?), ($\bar{\theta}=75$º, $\bar{u}=$?) e ($\bar{\theta}=95$º, $\bar{u}=$?). Sugestão: crie subseções para organizar.
 
+### Resultados
+
+Os resultados finais obtidos estão descritos abaixo. Para mais detalhes desses resultados, clique [aqui](../resultados/time-2/lab-3/README.md).
+
+#### Parâmetros
+
+| $\alpha$ | $\beta$ | $\gamma$ |
+|:-------:|:-------:|:-------:|
+| 21,08 | 1,82 | 0,41 |
+#### Curva estática
+
+$y_{ss} = 1.6753 u_{ss} - 1.9287$
+
+#### Funções de transferência para diferentes pontos de operação
+
+##### Ponto de operação ($\bar{\theta}=20$º, $\bar{u}=13.09\%$):
+
+$G(s) = \frac{\Delta \theta(s)}{\Delta U(s)} = \frac{0.42}{s^2 + 2.14 s + 19.37}$
+
+
+##### Ponto de operação ($\bar{\theta}=40$º, $\bar{u}=25.03\%$):
+
+$G(s) = \frac{\Delta \theta(s)}{\Delta U(s)} = \frac{0.40}{s^2 + 1.51 s + 16.50}$
+
 ## Objetivos
 
 O objetivo desse encontro é:
