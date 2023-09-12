@@ -142,4 +142,6 @@ $$
 
 Note $x_1(t)$ e $x_2(t)$ representam o estado interno do PID.
 
+## Vídeo explicativo
 
+[![Watch the video](https://img.freepik.com/vetores-premium/pagina-de-perfil-do-player-de-video-do-youtube-canal-do-blogger-modelo-de-interface-do-usuario-ux-do-site_73903-324.jpg)]([https://youtu.be/wiP100gNqGI](https://youtu.be/U5Lesf2R3bE)https://youtu.be/U5Lesf2R3bE)
