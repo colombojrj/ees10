@@ -21,20 +21,25 @@ Analisando-se os [gráficos](../resultados/time-1/lab-4/imagens/) conforme discu
 
 ### Funções de transferência
 Assim, tem-se as funções de transferências para cada um dos ângulos.
-- PID 15°: Kd = 2.2657; Ki = 43.9760; Kp = 2.4856
-  $$ T_{15}(s) = 47.8\,\frac{s^2 + 1.96s + 18.4}{s^2 + 20s} $$
+PID 15°: Kd = 2.2657; Ki = 43.9760; Kp = 2.4856
 
-- PID 37.5°: Kd = 2.5275; Ki = 35.9433; Kp = 3.4997
-  $$ T_{37.5}(s) = 54.05\,\frac{s^2 + 1.96s + 13.3}{s^2 + 20s} $$
+$$ T_{15}(s) = 47.8 \frac{s^2 + 1.96s + 18.4}{s^2 + 20s} $$
 
-- PID 55°: Kd = 2.9952; Ki = 25.8296; Kp = 5.0766
-  $$ T_{55}(s) = 64.98\,\frac{s^2 + 1.96s + 7.95}{s^2 + 20s} $$
+PID 37.5°: Kd = 2.5275; Ki = 35.9433; Kp = 3.4997
 
-- PID 70°: Kd = 9.2023; Ki = 20.5944; Kp = 18.8545
-  $$ T_{70}(s) = 202.9\,\frac{s^2 + 1.96s + 2.03}{s^2 + 20s} $$
+$$ T_{37.5}(s) = 54.05 \frac{s^2 + 1.96s + 13.3}{s^2 + 20s} $$
 
-- PID 85°: Kd = 1.7946; Ki = 4.0164; Kp = 3.6770
-  $$ T_{85}(s) = 39.57\,\frac{s^2 + 1.96s + 2.03}{s^2 + 20s} $$
+PID 55°: Kd = 2.9952; Ki = 25.8296; Kp = 5.0766
+
+$$ T_{55}(s) = 64.98 \frac{s^2 + 1.96s + 7.95}{s^2 + 20s} $$
+
+PID 70°: Kd = 9.2023; Ki = 20.5944; Kp = 18.8545
+
+$$ T_{70}(s) = 202.9 \frac{s^2 + 1.96s + 2.03}{s^2 + 20s} $$
+
+PID 85°: Kd = 1.7946; Ki = 4.0164; Kp = 3.6770
+
+$$ T_{85}(s) = 39.57 \frac{s^2 + 1.96s + 2.03}{s^2 + 20s} $$
 
 ## Equipe de laboratório 15h30-17h10
 
