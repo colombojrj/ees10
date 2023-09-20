@@ -21,6 +21,7 @@ Analisando-se os [gráficos](../resultados/time-1/lab-4/imagens/) conforme discu
 
 ### Funções de transferência
 Assim, tem-se as funções de transferências para cada um dos ângulos.
+
 PID 15°: Kd = 2.2657; Ki = 43.9760; Kp = 2.4856
 
 $$ T_{15}(s) = 47.8 \frac{s^2 + 1.96s + 18.4}{s^2 + 20s} $$
