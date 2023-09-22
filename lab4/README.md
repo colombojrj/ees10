@@ -18,9 +18,17 @@ Poste aqui a função de transferência dos seus controladores.
 
 ## Equipe de laboratório 15h30-17h10
 
-# Funções de transferências e os respectivos Kp Ki Kd de cada um dos grupos
+# Projeto Escolhido (Ainda não está pronto)
 
-## Arthur, Filipe e Matheus
+O projeto escolhido foi o correspondente ao grupo dos alunos *Arthur, Filipe e Matheus*. 
+
+![Gráfico do Projeto Escolhido](../resultados/time-2/lab-4/images/Arthur_Filipe_Matheus%20-%20Curva%20Comparativa.jpg)
+
+A análise dos resultados do experimento para o Time 2 mostram que o grupo dos alunos Arthur, Filipe e Matheus foi aquele que apresentou melhor ação do controlador sobre a planta. Pôde-se afirmar isso na medida em que foi nesse grupo em que a resposta da entrada foi melhor seguida pelo sistema (controlador + planta). Observa-se isso não apenas nos platôs e rampas que existem mas também nos momentos de descontinuidade onde se vê explicitamente a ação da parte derivativa do controlador PID. Isso se deve pois, como ha uma descontinuidade não removível, é naturalmente esperado um “pico”, o que se observa relativamente bem. Em todos os 3 casos de análise, observou-se um sinal aparentemente estranho na entrada o qual não acompanha o sinal comandado mas que se deve a dinâmica inicial de operação. No caso do grupo do Lucas, houve uma boa ação do controlador também mas que se apresentou menos eficiente no último platô do sinal de entrada. No caso do grupo do Douglas até a primeira metade houve uma resposta condizente na medida que o sinal de saída acompanhou bem o sinal de entrada. Entretanto, na segunda metade houve uma grande oscilação que se deveu, de acordo com o grupo, a uma situação de operação que levou o sistema a uma região de instabilidade. *Obs: as imagens comparativas da referência e da saída estão na pasta de resultados; Não se levou em conta o resultado do grupo dos alunos Luiz, Ricardo e Victória, como combinado com o professor com o grupo.*
+
+## Resultado dos Grupos (Funções de Transferência e Kp, Ki e Kd para cada ângulo)
+
+### Arthur, Filipe e Matheus
 
   PID 15°: Kd = 3.6848; Ki = 64.6507; Kp = 2.7273
 
@@ -42,7 +50,7 @@ Poste aqui a função de transferência dos seus controladores.
   
   $$ T_{85}(s) = \frac{64s^2 + 124.8s + 121.6}{s^2 + 20s} $$
 
-## Douglas, Pedro, Felipe
+### Douglas, Pedro, Felipe
 
 PID 15°: Kd = 4.3880; Ki = 76.8200; Kp = 5.2992
 
@@ -50,7 +58,7 @@ PID 15°: Kd = 4.3880; Ki = 76.8200; Kp = 5.2992
 
   PID 37.5°: Kd = 4.4236; Ki = 65.8000; Kp = 6.9090
 
-  $$ T_{37.5}(s) = \frac{117.5s^2 + 238.5s + 1645}{s^2 + 55s} $$
+  $$ T_{37.5}(s) = \frac{117.5s^2 + 238.5s + 1645}{s^2 + 25s} $$
 
   PID 55°: Kd = 5.2196; Ki = 55.9740; Kp = 12.0110
 
@@ -64,7 +72,7 @@ PID 15°: Kd = 4.3880; Ki = 76.8200; Kp = 5.2992
   
   $$ T_{85}(s) = \frac{93s^2 + 163.7s + 147.9}{s^2 + 25s} $$
 
-## Gabriel, Guilherme Fagundes, Lucas
+### Gabriel, Guilherme Fagundes, Lucas
 
 PID 15°: Kd = 3.5991; Ki = 63.5796; Kp = 3.7088
 
@@ -86,27 +94,9 @@ PID 15°: Kd = 3.5991; Ki = 63.5796; Kp = 3.7088
   
   $$ T_{85}(s) = 69.41\frac{s^2 + 2.03s + 2.07}{s^2 + 21s} $$
 
-## Luiz, Ricardo, Victoria
+### Luiz, Ricardo, Victoria
 
-PID 15°: Kd = 3.6848; Ki = 64.6507; Kp = 2.7273
-
-  $$ T_{15}(s) = 58\frac{s^2 + 1.82s + 16.7}{s^2 + 15s} $$
-
-  PID 37.5°: Kd = 4.1028; Ki = 53.24; Kp = 4.4387
-
-  $$ T_{37.5}(s) = 66\frac{s^2 + 1.82s + 12.1}{s^2 + 15s} $$
-
-  PID 55°: Kd = 4.411; Ki = 45.12; Kp = 6.7129
-
-  $$ T_{55}(s) = 117\frac{s^2 + 1.82s + 9.64}{s^2 + 25s} $$
-
-  PID 70°: Kd = 2.3625; Ki = 23.036; Kp = 4.7502
-
-  $$ T_{70}(s) = 52\frac{s^2 + 2.275s + 8.86}{s^2 + 20s} $$
-
-  PID 85°: Kd = 2.9032; Ki = 6.08; Kp = 5.936
-  
-  $$ T_{85}(s) = 64\frac{s^2 + 1.95s + 1.9}{s^2 + 20s} $$
+Conforme combinado com o professor, esse grupo terá os dados e o gráfico atribuídos mais tarde.
 
 
 
