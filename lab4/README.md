@@ -18,7 +18,30 @@ Poste aqui a função de transferência dos seus controladores.
 
 ## Equipe de laboratório 15h30-17h10
 
-Poste aqui a função de transferência dos seus controladores.
+# Funções de transferências e os respectivos Kp Ki Kd de cada um dos grupos
+
+## Arthur, Filipe e Matheus
+
+- PID 15°: Kd = 3.6848; Ki = 64.6507; Kp = 2.7273
+  $$ T_{15}(s) = 58\,\frac{s^2 + 1.82s + 16.7}{s^2 + 15s} $$
+
+- PID 37.5°: Kd = 4.1028; Ki = 53.24; Kp = 4.4387
+  $$ T_{37.5}(s) = 66\,\frac{s^2 + 1.82s + 12.1}{s^2 + 15s} $$
+
+- PID 55°: Kd = 4.411; Ki = 45.12; Kp = 6.7129
+  $$ T_{55}(s) = 117\,\frac{s^2 + 1.82s + 9.64}{s^2 + 25s} $$
+
+- PID 70°: Kd = 2.3625; Ki = 23.036; Kp = 4.7502
+  $$ T_{70}(s) = 52\,\frac{s^2 + 2.275s + 8.86}{s^2 + 20s} $$
+
+- PID 85°: Kd = 2.9032; Ki = 6.08; Kp = 5.936
+  $$ T_{85}(s) = 64\frac{s^2 + 1.95s + 1.9}{s^2 + 20s} $$
+
+## Douglas, Pedro, 
+
+
+
+
 
 ## Objetivos
 
