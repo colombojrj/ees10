@@ -37,7 +37,7 @@ Poste aqui a função de transferência dos seus controladores.
 - PID 85°: Kd = 2.9032; Ki = 6.08; Kp = 5.936
   $$ T_{85}(s) = 64\frac{s^2 + 1.95s + 1.9}{s^2 + 20s} $$
 
-## Douglas, Pedro, 
+## Douglas, Pedro, Felipe
 
 
 
