@@ -18,7 +18,7 @@ Poste aqui a função de transferência dos seus controladores.
 
 ## Equipe de laboratório 15h30-17h10
 
-# Projeto Escolhido (Ainda não está pronto)
+# Projeto Escolhido
 
 O projeto escolhido foi o correspondente ao grupo dos alunos *Arthur, Filipe e Matheus*. 
 
