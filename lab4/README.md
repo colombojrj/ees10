@@ -22,7 +22,8 @@ Poste aqui a função de transferência dos seus controladores.
 
 ## Arthur, Filipe e Matheus
 
-- PID 15°: Kd = 3.6848; Ki = 64.6507; Kp = 2.7273
+  PID 15°: Kd = 3.6848; Ki = 64.6507; Kp = 2.7273
+  
   $$ T_{15}(s) = 58\,\frac{s^2 + 1.82s + 16.7}{s^2 + 15s} $$
 
 - PID 37.5°: Kd = 4.1028; Ki = 53.24; Kp = 4.4387
