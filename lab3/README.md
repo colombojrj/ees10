@@ -19,12 +19,12 @@ $u_{ss} = 34.81 y_{ss} + 0.883$
 
 #### Funções de transferência para diferentes pontos de operação
 
-##### Ponto de operação ($\bar{\theta}=20$º, $\bar{u}=11.34\%$):
+##### Ponto de operação ( $\bar{\theta}=20$ º, $\bar{u}=11.34\% $ ):
 
 $G(s) = \frac{\Delta \theta(s)}{\Delta U(s)} = \frac{0.64}{s^2 + 2.56 s + 20.40}$
 
 
-##### Ponto de operação ($\bar{\theta}=40$º, $\bar{u}=23.51\%$):
+##### Ponto de operação ( $\bar{\theta}=40$ º, $\bar{u}=23.51\% $ ):
 
 $G(s) = \frac{\Delta \theta(s)}{\Delta U(s)} = \frac{0.47}{s^2 + 1.36 s + 18.97}$
 
@@ -43,7 +43,7 @@ Os resultados finais obtidos estão descritos abaixo. Para mais detalhes desses 
 | 21,08 | 1,82 | 0,41 |
 #### Curva estática
 
-$y_{ss} = 1.6753 u_{ss} - 1.9287$
+$u_{ss} = 34.2003 y_{ss} + 1.1513$
 
 #### Funções de transferência para diferentes pontos de operação
 
