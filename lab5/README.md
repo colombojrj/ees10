@@ -21,7 +21,7 @@ $$ G(s) = \frac{\theta(s)}{U(s)} = \frac{\gamma}{s^2 + \beta s + \alpha }\frac{1
 
 ### Resultados
 
-Os dados utilizados para nova análise podem ser encontrados [aqui](../resultados/time-1/lab-3/README.md). Os valores determinados foram:
+Os dados utilizados para nova análise podem ser encontrados [aqui](../resultados/time-1/lab-3/dados). Os valores determinados foram:
 
 |Grupo| $\alpha$ | $\beta$ | $\gamma$ |
 |:-------:|:-------:|:-------:|:-------:|
