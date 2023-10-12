@@ -14,7 +14,29 @@ $$ G(s) = \frac{\theta(s)}{U(s)} = \frac{\gamma}{s^2 + \beta s + \alpha \cos(\ba
 
 ## Equipe de laboratório 13h30-15h10
 
-Poste aqui a função de transferência dos seus controladores.
+
+Cada grupo recalculou os parâmetros $\alpha$, $\beta$, $\gamma$ com base no novo modelo linear:
+
+$$ G(s) = \frac{\theta(s)}{U(s)} = \frac{\gamma}{s^2 + \beta s + \alpha }\frac{1}{\frac{1}{5}s + 1} $$
+
+### Resultados
+
+Os dados utilizados para nova análise podem ser encontrados [aqui](../resultados/time-1/lab-3/README.md). Os valores determinados foram:
+
+|Grupo| $\alpha$ | $\beta$ | $\gamma$ |
+|:-------:|:-------:|:-------:|:-------:|
+|1| 21,80 | 2,04 | 0,56 |
+|2| 14,57 | 1,65 | 0,47 |
+|3| 16,43 | 1,36 | 0,50 |
+|4| 19,29 | 1,90 | 0,49 |
+
+### Novos parâmetros
+
+Assim, derteminou-se os novos parâmetros da equipe pelo cálculo da média dos valores de cada grupo:
+
+| $\alpha$ | $\beta$ | $\gamma$ |
+|:-------:|:-------:|:-------:|
+| 18,02 | 1,74 | 0,50 
 
 ## Equipe de laboratório 15h30-17h10
 
