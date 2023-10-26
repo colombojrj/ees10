@@ -8,7 +8,21 @@ Nesse lab vamos trabalhar com o ponto de operação $\bar{\theta} = 30$º. Faz-s
 
 Poste aqui o diagrama de Bode para esse ponto de operação. Informe também qual foi a frequência de ressonância e o pico de ganho.
 
-## Equipe de laboratório 15h30-17h10
+### Resultados Obtidos
+
+Abaixo está o scatter plot dos pontos experimentais de cada grupo junto com o ajuste da função de transferência.
+<p float="left">
+<img src="../resultados/time-1/lab-6/figuras/abs600grupo1.png" alt="drawing" width="500"/>
+<img src="../resultados/time-1/lab-6/figuras/phase600grupo1.png" alt="drawing" width="500"/>
+</p>
+
+Abaixo está a chamada da função <code>bode()</code> para a função de transferência ajustada:
+
+<img src="../resultados/time-1/lab-6/figuras/figBodeGrupo1.png" alt="drawing" width="800"/>
+
+Para conseguir ver o plot do <code>bode()</code> dentro do MATLAB, clique aqui e acesse o arquivo do MATLAB: [figBodeGrupo1.fig](../resultados/time-1/lab-6/figuras/figBodeGrupo1.fig)
+
+ ## Equipe de laboratório 15h30-17h10
 
 Poste aqui o diagrama de Bode para esse ponto de operação. Informe também qual foi a frequência de ressonância e o pico de ganho.
 
