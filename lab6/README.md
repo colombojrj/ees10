@@ -47,7 +47,7 @@ u(t)  =  \left\{
 \right.
 $$
 
-Note que é necessário calcular a amplitude $A$ do seno de entrada. Se essa amplitude for muito pequena, efeitos como o atrito seco irão atrapalhar muito. Se for muito grande, então o efeito não-linear da geometria do aeropêndulo irá introduzir termos no seno. Uma sugestão é simular o modelo não-linear do aeropêndulo e determinar um valor aproximado para essa amplitude.
+Note que é necessário calcular a amplitude $A$ do seno de entrada. Se essa amplitude for muito pequena, efeitos como o atrito seco irão atrapalhar muito. Se for muito grande, então o efeito não-linear da geometria do aeropêndulo irá introduzir termos no seno. Uma sugestão é simular o modelo do aeropêndulo e determinar um valor aproximado para essa amplitude.
 
 #### Exercício 3
 
