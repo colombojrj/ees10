@@ -14,11 +14,68 @@ $$ G(s) = \frac{\theta(s)}{U(s)} = \frac{\gamma}{s^2 + \beta s + \alpha \cos(\ba
 
 ## Equipe de laboratório 13h30-15h10
 
-Poste aqui a função de transferência dos seus controladores.
+
+Cada grupo recalculou os parâmetros $\alpha$, $\beta$, $\gamma$ com base no novo modelo linear:
+
+$$ G(s) = \frac{\theta(s)}{U(s)} = \frac{\gamma}{s^2 + \beta s + \alpha }\frac{1}{\frac{1}{5}s + 1} $$
+
+### Resultados
+
+Os dados utilizados para nova análise podem ser encontrados [aqui](../resultados/time-1/lab-3/dados). Os valores determinados foram:
+
+|Grupo| $\alpha$ | $\beta$ | $\gamma$ |
+|:-------:|:-------:|:-------:|:-------:|
+|1| 21,80 | 2,04 | 0,56 |
+|2| 14,57 | 1,65 | 0,47 |
+|3| 16,43 | 1,36 | 0,50 |
+|4| 19,29 | 1,90 | 0,49 |
+
+### Novos parâmetros
+
+Assim, derteminou-se os novos parâmetros da equipe pelo cálculo da média dos valores de cada grupo:
+
+| $\alpha$ | $\beta$ | $\gamma$ |
+|:-------:|:-------:|:-------:|
+| 18,02 | 1,74 | 0,50 
 
 ## Equipe de laboratório 15h30-17h10
 
-Poste aqui a função de transferência dos seus controladores.
+A partir do novo modelo linear do aeropêndulo, dado pela função de transferência abaixo: 
+
+$$ G(s) = \frac{\theta(s)}{U(s)} = \frac{\gamma}{s^2 + \beta s + \alpha }\frac{1}{\frac{1}{5}s + 1} $$ 
+
+Recalculou-se os parâmetros $\alpha$, $\beta$, $\gamma$  de cada grupo.
+  
+### Resultados
+
+Dessa forma, obteve-se os seguintes parâmetros para $\alpha$, $\beta$ e $\gamma$:
+
+<center>
+
+|  $\overline{y}$  | $\alpha_1$ | $\alpha_2$ | $\alpha_3$ | $\alpha_4$ | $\alpha_{médio}$ |
+|:---:|:----------:|:----------:|:----------:|:----------:|:----------------:|
+| 20º |    20,69   |    18,06   |    18,98   |    19,73   |    19,37    |
+| 40º |    15,53   |    17,47   |    15,03   |    17,96   |    16,50    |
+
+|  $\overline{y}$  | $\beta_1$ | $\beta_2$ | $\beta_3$ | $\beta_4$ | $\beta_{médio}$ |
+|:---:|:---------:|:---------:|:---------:|:---------:|:---------------:|
+| 20º |   2,47   |    1,95   |    2,36   |    1,80   |       2,14       |
+| 40º |   1,15   |    0,66   |    1,29   |    2,94   |       1,51       |
+
+|  $\overline{y}$  | $\gamma_1$ | $\gamma_2$ | $\gamma_3$ | $\gamma_4$ | $\gamma_{médio}$ |
+|:---:|:---------:|:---------:|:---------:|:---------:|:---------------:|
+| 20º |   0,59    |    0,47   |    0,54   |    0,09   |       0,42      |
+| 40º |   0,43    |    0,70   |    0,40   |    0,09   |       0,40      |
+
+</center>
+
+Em resumo, os valores médios encontrados para os parâmetros de todos os ensaios realizados foram:
+
+<center>
+
+$\alpha$ | $\beta$ | $\gamma$ |
+:---------:|:---------:|:---------:|
+|  17,94    |   1,82   |    0,41   |  
 
 ## Objetivos
 
