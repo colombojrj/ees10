@@ -10,7 +10,17 @@ Poste aqui o diagrama de Bode para esse ponto de operação. Informe também qua
 
 ## Equipe de laboratório 15h30-17h10
 
-Poste aqui o diagrama de Bode para esse ponto de operação. Informe também qual foi a frequência de ressonância e o pico de ganho.
+Abaixo está o scatter plot dos pontos experimentais de cada grupo junto com o ajuste da função de transferência.
+<p float="left">
+<img src="../resultados/time-2/lab-6/Bode_modulo_grupo15h30_EES10.jpg" alt="drawing" width="500"/>
+<img src="../resultados/time-2/lab-6/Bode_fase_grupo15h30_EES10.jpg" alt="drawing" width="500"/>
+</p>
+
+Abaixo está a chamada da função <code>bode()</code> para a função de transferência ajustada:
+
+<img src="../resultados/time-2/lab-6/Bode_fit_grupo15h30_EES10.png" alt="drawing" width="800"/>
+
+Para conseguir ver o plot do <code>bode()</code> dentro do MATLAB, clique aqui e acesse o arquivo do MATLAB: [figBodeGrupo2.fig](../resultados/time-2/lab-6/Bode_fit_grupo15h30_EES10.fig)
 
 ## Objetivos
 
