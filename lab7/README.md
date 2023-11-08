@@ -10,7 +10,7 @@ Poste aqui os gráficos da operação em malha fechada ao se aplicar um degrau d
 
 ## Equipe de laboratório 15h30-17h10
 
-Poste aqui os gráficos da operação em malha fechada ao se aplicar um degrau de 5º. Mostrar o sinal de controle e o sinal de saída.
+Poste aqui os gráficos da operação em malha fechada ao se aplicar um degrau de 5º. Mostrar o sinal de controle e o sinal de saída. Teste.
 
 ## Objetivos
 
