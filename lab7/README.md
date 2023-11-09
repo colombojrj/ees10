@@ -6,7 +6,31 @@ Nesse lab vamos trabalhar com o ponto de operação $\bar{\theta} = 30$º. Faz-s
 
 ## Equipe de laboratório 13h30-15h10
 
-Poste aqui os gráficos da operação em malha fechada ao se aplicar um degrau de 5º. Mostrar o sinal de controle e o sinal de saída.
+### Yan, Vinicius e Peres
+
+![Gráfico 5](../resultados/time-1/lab-7/peres/Git_Peres_Plot.png)
+
+O arquivo <code>.mat</code> pode ser encontrado em [Git_Peres.mat](../resultados/time-1/lab-7/peres/Git_Peres.mat)
+
+### Ferraresi, Renan, Valério
+
+![Gráfico 6](../resultados/time-1/lab-7/valerio/Git_Renan_Plot.png)
+
+O arquivo <code>.mat</code> pode ser encontrado em [Git_Renan.mat](../resultados/time-1/lab-7/valerio/Git_Renan.mat)
+
+### Emily, Emanuel, Paulo Vitor
+
+![Gráfico 7](../resultados/time-1/lab-7/king/Git_King_Plot.png)
+
+O arquivo <code>.mat</code> pode ser encontrado em [Git_King.mat](../resultados/time-1/lab-7/king/Git_King.mat)
+
+
+### Pedro Augusto, Pedro Augusto, Nando, Julio
+
+![Gráfico 8](../resultados/time-1/lab-7/pedros/Git_Pedros_Plot.png)
+
+O arquivo <code>.mat</code> pode ser encontrado em [Git_Pedros.mat](../resultados/time-1/lab-7/pedros/Git_Pedros.mat)
+
 
 ## Equipe de laboratório 15h30-17h10
 
