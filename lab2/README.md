@@ -2,30 +2,27 @@
 
 O objetivo desse encontro é:
 
-- estudar a curva estática do sistema aeropêndulo
-- familiarizar-se com a programação da placa de aquisição de dados OpenDAC em C++ e Simulink
+- introdução ao lugar geométrico das raízes
 
-## O que eu preciso fazer?
+### Explicação
 
-Você precisa:
-
-- assistir o vídeo abaixo
-- estudar o código lab2/main.cpp
-- conseguir compilar e executar o código lab2/main.cpp
-
-### Tarefinha
-
-A EDO que descreve a dinâmica não-linear do aeropêndulo é 
-
-$$ \ddot{\theta}(t) = -\alpha \sin(\theta(t)) - \beta \dot{\theta}(t) + \gamma u(t) $$
-
-Prove que a função de transferência obtida aplicando o método da linearização de Taylor em torno do ponto de operação $(\bar{u}, \bar{\theta})$ é:
+Foi decidido que o modelo do aeropêndulo é:
 
 $$ G(s) = \frac{\theta(s)}{U(s)} = \frac{\gamma}{s^2 + \beta s + \alpha \cos(\bar{\theta})} $$
 
+com $\alpha$, $\beta$ e $\gamma$ parâmetros a serem determinados experimentalmente (lab1).
+
+Suponha que você vai fechar uma malha com um controlador proporcional. Para cada valor de $K$ existem dois polos de malha fechada. Se você plotá-los (em um gráfico com eixos real e imaginário), terá uma figura que descreve o comportamento em malha fechada (MF) do sistema. Essa figura recebe o nome de Lugar Geométrico das Raízes (LGR).
+
 Bons estudos!
 
-## Vídeo tutorial
+## O que eu preciso fazer no lab?
 
-[![Watch the video](https://img.freepik.com/vetores-premium/pagina-de-perfil-do-player-de-video-do-youtube-canal-do-blogger-modelo-de-interface-do-usuario-ux-do-site_73903-324.jpg)](https://youtu.be/1c_JSkU_FI8)
+Basicamente você vai levantar experimentalmente o LGR do aeropêndulo e comparar com o resultado esperado (modelo).
 
+1. Com o modelo, aplique o critério de Routh-Hurwitz para determinar o maior ganho $K$ que garante estabilidade do sistema
+2. Selecione (pelo menos) 10 ganhos $K$ para testá-los experimentalmente
+3. Teste-os
+4. Para cada experimento determine $\xi$ e $\omega_n$, para então calcular polos de malha fechada (faça o mesmo para o modelo)
+5. Gere uma figura com os polos de MF com os dados obtidos via modelo e via experimental
+6. Conclua: o seu modelo é bom? Se não for bom, terá de refazer o modelo
