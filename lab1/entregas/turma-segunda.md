@@ -24,13 +24,13 @@ Os dados de ângulo de equilíbrio por sinal fornecido
 
 Com isso, foi realizado um gráfico do seno do angulo, com u solicitado.
 
-![Ajuste com seno](./res/seno.jpg)
+![Ajuste com seno](./res/segunda/seno.jpg)
 
 Um resultado satisfatório para a análise.
 
 Porém, analisando o gráfico do ângulo medido em radianos, com o sinal solicitado, foi visto que:
 
-![Ajuste com θ](./res/theta.jpg)
+![Ajuste com θ](./res/segunda/theta.jpg)
 
 Ou seja, apesar dos resultados satisfatórios, com o seno do ângulo, podemos aproximar a EDP como sendo linear, sem grandes perdas de resultado.
 
