@@ -1,6 +1,0 @@
-Para executar alguns desses diagramas simulink, deve-se baixar o 
-arquivo dacSfunction.mexw64 (na versão apropriada do seu OS).
-
-Link:
-
-https://gitlab.com/opendac/dac/dac-driver/uploads/90d6ca1549c1205d14d922a41ccdb0d3/dacSfunction.mexw64

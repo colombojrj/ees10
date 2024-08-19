@@ -1,1 +1,0 @@
-Estes dados foram levantados usando o programa em C++.
