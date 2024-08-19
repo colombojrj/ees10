@@ -8,7 +8,7 @@ O objetivo desse encontro é:
 
 Foi decidido que o modelo do aeropêndulo é:
 
-$$ G(s) = \frac{\theta(s)}{U(s)} = \frac{\gamma}{s^2 + \beta s + \alpha $$
+$$ G(s) = \frac{\theta(s)}{U(s)} = \frac{\gamma}{s^2 + \beta s + \alpha} $$
 
 com $\alpha$, $\beta$ e $\gamma$ parâmetros a serem determinados experimentalmente (lab1).
 
