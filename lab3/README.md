@@ -1,99 +1,127 @@
+
 # Lab3
 
-## Equipe de laboratório 13h30-15h10 (Time 1)
+## Formulário
 
-Adicione aqui os parâmetros $\alpha$, $\beta$, $\gamma$ e a equação da curva estática. Adicionalmente, coloque também as funções de transferência para os pontos de operação ($\bar{\theta}=20$º, $\bar{u}=$?), ($\bar{\theta}=40$º, $\bar{u}=$?), ($\bar{\theta}=75$º, $\bar{u}=$?) e ($\bar{\theta}=95$º, $\bar{u}=$?). Sugestão: crie subseções para organizar.
+Modelo linear do aeropêndulo em torno de ($\bar{u}, \bar{\theta}$):
 
-### Resultados
+$$ G(s) = \frac{\theta(s)}{U(s)} = \frac{\gamma}{s^2 + \beta s + \alpha} \frac{1}{\frac{1}{p_m}s + 1} $$
 
-Abaixo, serão descritos apenas os resultados finais obtidos. O detalhamento desses resultados pode ser acessado [aqui](../resultados/time-1/lab-3/README.md).
-
-#### Parâmetros
-
-| $\alpha$ | $\beta$ | $\gamma$ |
-|:-------:|:-------:|:-------:|
-| 23,24 | 1,96 | 0,56 |
-#### Curva estática
-
-$u_{ss} = 34.81 y_{ss} + 0.883$
-
-#### Funções de transferência para diferentes pontos de operação
-
-##### Ponto de operação ( $\bar{\theta}=20$ º, $\bar{u}=11.34\% $ ):
-
-$G(s) = \frac{\Delta \theta(s)}{\Delta U(s)} = \frac{0.64}{s^2 + 2.56 s + 20.40}$
-
-
-##### Ponto de operação ( $\bar{\theta}=40$ º, $\bar{u}=23.51\% $ ):
-
-$G(s) = \frac{\Delta \theta(s)}{\Delta U(s)} = \frac{0.47}{s^2 + 1.36 s + 18.97}$
-
-## Equipe de laboratório 15h30-17h10 (Time 2)
-
-Adicione aqui os parâmetros $\alpha$, $\beta$, $\gamma$ e a equação da curva estática. Adicionalmente, coloque também as funções de transferência para os pontos de operação ($\bar{\theta}=20$º, $\bar{u}=$?), ($\bar{\theta}=40$º, $\bar{u}=$?), ($\bar{\theta}=75$º, $\bar{u}=$?) e ($\bar{\theta}=95$º, $\bar{u}=$?). Sugestão: crie subseções para organizar.
-
-### Resultados
-
-Os resultados finais obtidos estão descritos abaixo. Para mais detalhes desses resultados, clique [aqui](../resultados/time-2/lab-3/README.md).
-
-#### Parâmetros
-
-| $\alpha$ | $\beta$ | $\gamma$ |
-|:-------:|:-------:|:-------:|
-| 21,08 | 1,82 | 0,41 |
-#### Curva estática
-
-$u_{ss} = 34.2003 y_{ss} + 1.1513$
-
-#### Funções de transferência para diferentes pontos de operação
-
-##### Ponto de operação ($\bar{\theta}=20$º, $\bar{u}=13.09\%$):
-
-$G(s) = \frac{\Delta \theta(s)}{\Delta U(s)} = \frac{0.42}{s^2 + 2.14 s + 19.37}$
-
-
-##### Ponto de operação ($\bar{\theta}=40$º, $\bar{u}=25.03\%$):
-
-$G(s) = \frac{\Delta \theta(s)}{\Delta U(s)} = \frac{0.40}{s^2 + 1.51 s + 16.50}$
+**Atenção** para o polo localizado em $s = -p_m$. Ele representa a dinâmica do motor. Ele vai te atrapalhar bastante. Mas também vai ajudar na taxa de sucesso na bancada.
 
 ## Objetivos
 
 O objetivo desse encontro é:
 
-- obter os parâmetros $\alpha$, $\beta$ e $\gamma$ do modelo dinâmico do aeropêndulo a partir de um ensaio a degrau
-- desenhar o lugar geométrico das raízes
+- projeto de PID usando Lugar Geométrico das Raízes
+- obtenção de modelo para outros pontos de operação
 
 ## Pré-Lab
 
-### Deve-se apresentar esse pré-lab antes de iniciar o experimento e o grupo deve apresentar os resultados obtidos
+### O grupo deve apresentar esse pré-lab antes de iniciar o experimento
 
-Suponha que $\alpha = 20,8$, $\beta = 1,24$ e $\gamma = 0,47$ (*spoiler alert*: esses foram os coeficientes que eu obti). Estude os polos de
+Projete controladores (sugestão: PIDs) de modo que a resposta a um degrau (em malha fechada) tenha as seguintes características:
 
-$$ G(s) = \frac{\theta(s)}{U(s)} = \frac{\gamma}{s^2 + \beta s + \alpha \cos(\bar{\theta})} $$
+- $t_e \leq 3$ s
+- $M_p \leq 5$ %
+- erro de regime menor que 5%
 
-em função de $\cos(\bar{\theta})$. Em seguida responda:
+Cada grupo deve alocar os polos de malha fechada em uma determinada posição e não podem haver posições repetidas. Faça o projeto para o modelo obtido. Veja esse vídeo sobre [ajuste de ganhos](https://www.youtube.com/watch?v=YiUjAV1bhKs).
 
-1. Qual análise foi feita? O que se pode aprender dessa análise?
-2. Qual é o menor ângulo crítico tal que a parte imaginária dos polos se torna zero? Apresente os cálculos.
-3. Escreva um script matlab para plotar um gráfico com os polos de $G(s)$ em função de $\cos(\bar{\theta})$. Não vale usar o comando rlocus, implemente um laço *for* para varrer a faixa de $\bar{\theta} \in \{0, 0.1, ..., 180.0\}$ e utilize o comando *plot*. Sugestão: utilize o comando *root* para determinar as raízes.
-4. Suponha que você deseja fechar uma malha de controle nesse sistema utilizando apenas um controlador proporcional $K_p$. Qual a faixa de $K_p$ que garante a estabilidade do sistema?
+### Dicas
+
+- Você não é obrigado a usar um PID completo, ele pode ser apenas um PD ou então um [PID + pinduricalhos](https://www.google.com.br/books/edition/PID_Controllers/FsyhngEACAAJ?hl=pt-BR&sa=X&ved=2ahUKEwis1tS_86GIAxX2rpUCHfDFFkoQiqUDegQIAxAC)
+- Você pode fazer uso de pré-filtro
+- Não use polos ou zeros maiores que $s = -30$
+- Observe o sinal de controle, se for maior que 60%, então provavelmente não vai funcionar na bancada
+- Utilize a ferramenta [rltool](https://www.mathworks.com/help/control/ug/root-locus-design.html) (ou a [sisotool](https://www.mathworks.com/help/control/ref/controlsystemdesigner-app.html)) para fazer os projetos
+- Utilize o LGR para fazer os projetos
+- Implemente o PID (no Simulink) com o bloco [PID](https://www.mathworks.com/help/simulink/slref/pidcontroller.html)
 
 ## No laboratório
 
 ### O que eu preciso fazer?
 
-Realize ensaios aplicando um degrau (com amplitude conhecida: sugestão 10% e 15%) para determinar os parâmetros $\alpha$, $\beta$ e $\gamma$ do modelo do aeropêndulo. Estude o comportamento nos pontos de operação $\bar{\theta} = 20$º e $\bar{\theta} = 40$º. **Realize pelo menos três ensaios para cada ponto de operação**.
+1. Provar que a sua lei de controle funciona;
+2. Escolher mais 3 pontos de operação e realizar experimentos para identificar os respectivos modelos.
 
-### Como eu faço isso?
+## Obtendo os ganhos do PID
 
-Provavelmente, a maneira mais fácil de fazer isso é reutilizar o código do lab2. Simplesmente crie um sinal $u(t)$ no matlab que implementa o ensaio que você precisa fazer. Esse sinal provavelmente terá algumas etapas:
+Uma possível função de transferência de um PID é
 
-1. Conduzir o aeropêndulo até os arredores do ponto de operação ($\bar{u} = ?$, $\bar{\theta} = 20$º): sugestão, utilize a curva estática para calcular $\bar{u}$. Em seguida, gere uma rampa suave partindo de $u = 0$ e terminando em $u = \bar{u}$.
-2. Permanecer em $\bar{u}$ por alguns segundos (sugestão 5 segundos), mas pode ser que esse valor precise ser maior
-3. Aplicar um degrau com amplitude conhecida $A$, de modo que o controle "global" é $u = \bar{u} + A$
-4. Mantenha $u = \bar{u} + A$ até o final do transitório
-5. Realizar 3 ensaios e depois, fazer $\bar{\theta} = 40$º e realizar mais 3 ensaios
+$$  
+\left.\begin{aligned}  
+G(s) = \frac{U(s)}{E(s)} &= K_p + \frac{K_i}{s} + \frac{sNK_d}{s+N} \\  
+&= \frac{(K_p+NK_d)s^2 + (NK_p + K_i)s + NK_i}{s(s+N)}   
+\end{aligned}  
+\right.  
+$$
 
-### Professor eu fiquei com dúvidas
+Normalmente, ao projetar o PID usando o LGR, você acaba obtendo uma função de transferência como:
 
-Utilize os arquivos da pasta dados e também o arquivo gabarito.xopp para verificar como eu resolvi esse problema. Cabe salientar que não é necessariamente a melhor maneira de se resolver o problema, mas pelo menos um ponto de partida.
+$$  
+G(s) = \frac{as^2 + bs + c}{s(s+N)}  
+$$
+
+Os ganhos $K_p$, $K_i$ e $K_d$ podem ser obtidos resolvendo o seguinte sistema linear:
+
+$$  
+\left[ \begin{array}{ccc}  
+1 & 0 & N \\  
+N & 1 & 0 \\  
+0 & N & 0  
+\end{array} \right]  
+\left[ \begin{array}{c}  
+K_p \\  
+K_i \\  
+K_d  
+\end{array} \right] =  
+\left[ \begin{array}{c}  
+a \\  
+b \\  
+c  
+\end{array} \right]  
+$$
+
+## Implementando o PID em código
+
+Existem **muitas** formas de se implementar um PID. Como precisamos combinar vários PIDs, será muito vantajoso escrever as EDOs que representam o PID e então combiná-las com uma interpolação, por exemplo. Supondo que o PID está na forma
+
+$$  
+G(s) = \frac{as^2 + bs + c}{s(s+N)}  
+$$
+
+Então as EDOs são:
+
+$$  
+\left[ \begin{array}{c}  
+\dot{x}_1(t) \\  
+\dot{x}_2(t)  
+\end{array} \right]=  
+\left[ \begin{array}{cc}  
+0 & 1 \\ -e & -d  
+\end{array} \right]  
+\left[ \begin{array}{c}  
+x_1(t) \\ x_2(t)  
+\end{array} \right]+  
+\left[ \begin{array}{c}  
+0 \\ 1  
+\end{array} \right] u(t)  
+$$  
+$$  
+y(t) =  
+\left[ \begin{array}{cc}  
+(c- ea) & (b-da) \end{array} \right]  
+\left[ \begin{array}{c}  
+x_1(t) \\ x_2(t)  
+\end{array} \right]+  
+a u(t)  
+$$
+
+Note $x_1(t)$ e $x_2(t)$ representam o estado interno do PID.
+
+## Vídeo explicativo
+
+Esse vídeo foi feito para um roteiro antigo. Embora algumas coisas foram movimentadas para outros laboratórios, vale a pena assistir para aprender a usar o rltool/sisotool.
+
+[![Watch the video](https://img.freepik.com/vetores-premium/pagina-de-perfil-do-player-de-video-do-youtube-canal-do-blogger-modelo-de-interface-do-usuario-ux-do-site_73903-324.jpg)](https://youtu.be/U5Lesf2R3bE)
