@@ -1,0 +1,28 @@
+Modelos obtidos nos testes em malha aberta no lab3
+Cada % antes de uma quadra representa a potência aplicada inicialmente,
+levando a um estado estacionário sobre o qual foi aplicado um degrau de 10% de potência.
+
+
+5%
+alpha = 36.4553
+beta = 0.95199
+gamma = 1.0573
+am = 0.18815
+
+15%
+alpha = 30.507300000000001
+beta = 1.071700000000000
+gamma = 0.882500000000000
+am = 0.181810000000000
+
+25%
+alpha = 24.02969999999999
+beta = 1.548900000000000
+gamma = 0.691510000000000
+am = 0.133420000000000
+
+35% (degrau de 5%)
+alpha = 16.2091
+beta = 2.0818
+gamma = 0.46471
+am = 0.045157
