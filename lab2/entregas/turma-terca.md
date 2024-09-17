@@ -55,11 +55,11 @@ Encontrando os polos:
 
 ![Polos de malha fechada para diferentes valores de K](./res/terca/polos.png)
 
-Percebe-se que dentro o lugar geométrico das raízes do sistema realimentado não condizeu muito com o 
+Percebe-se que o lugar geométrico das raízes do sistema realimentado não condizeu muito com o modelo proposto inicialmente, que não considerava a dinâmica do motor. 
 
 ## Atualizações no modelo
 
-Foi necessário atualizar o modelo, adicionando um polo adicional, referente à dinâmica do motor, o polo $p_m$. Este polo não havia sido considerado anteriormente, e teve seu valor encontrado de forma heurística.
+Foi necessário, então, atualizar o modelo, adicionando um polo adicional, referente à dinâmica do motor, o polo $p_m$. Este polo não havia sido considerado anteriormente, e teve seu valor encontrado de forma heurística.
 
 A nova função de transferência $G(s)$ fica como:
 
@@ -69,15 +69,17 @@ Atualizando o modelo, podemos novamente encontrar valores de alpha, beta, gamma 
 
 ### Encontrando uma nova planta
 
-Após otimizar os parâmetros do novo modelo, obtemos:
+Após otimizar os parâmetros do novo modelo, obtemos os seguintes valores para $\alpha$, $\beta$, $\gamma$ e $a_m$, considerando diferentes valores iniciais para o estado estacionário do sistema, bem como diferentes valores para o degrau:
 
-$$\alpha = 19.0225$$
-$$\beta = 1.4867$$
-$$\gamma = 0.5026$$
-$$a_m = 0.1$$
+| $\theta_0$  | $\alpha$ | $\beta$ | $\gamma$ | $a_m$ |
+|:-------:|:--------:|:--------:|:-------:|:---------:|
+| 5  + 10 | 36.4553  | 0.9520   | 1.0573  | 0.18815   |
+| 15 + 10 | 30.5073  | 1.0717   | 0.8825  | 0.18181   |
+| 25 + 10 | 24.02969 | 1.5489   | 0.6915  | 0.13342   |
+| 35 +  5 | 16.2091  | 2.0818   | 0.4647  | 0.045157  |
 
-### Experimentando com o novo modelo para verificar a adequação às respostas degrau
+### Verificando se as raízes obtidas experimentalmente condizem com as simuladas com o novo modelo.
 
-<!---
-Perguntar pra rapazeada
--->
+![Polos de malha fechada para diferentes valores de K, comparados ao novo modelo](./res/terca/polos2.png)
+
+Percebe-se que o novo modelo, com o polo adicional, condiz melhor com o lugar geométrico das raízes do sistema realimentado, se aproximando do eixo imaginário conforme o aumento de K, como esperado, e eventualmente se tornando instável, como foi observado para K > 28.
